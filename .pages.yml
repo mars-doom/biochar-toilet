@@ -1,0 +1,122 @@
+# Pages CMS: edit this project at https://app.pagescms.org without using Git.
+# Doc pages open in a visual editor (switch to Source with the toggle).
+# Each doc page starts with a frontmatter block (---, title: ..., ---). The title must never
+# be empty: an empty block is saved as ---/--- and the page then fails to open.
+
+media:
+  - name: images
+    label: Photos
+    input: docs/images
+    output: images            # how pages link to them: images/name.jpg
+    rename: safe              # lowercase, no spaces
+    extensions: [jpg, jpeg, png, webp, svg, gif]
+  - name: files
+    label: Files
+    input: files
+    output: files
+
+content:
+  - name: index
+    label: Summary
+    type: file
+    path: docs/index.md
+    format: yaml-frontmatter
+    operations: { delete: false }
+    fields:
+      - name: title
+        label: Page title
+        type: string
+        required: true
+        default: Summary
+        description: Keep this filled in. If it's empty, Pages CMS can't reopen the page.
+      - name: body
+        label: Page
+        type: rich-text
+        options: { format: markdown, media: images, switcher: true }
+
+  - name: log
+    label: Log
+    type: file
+    path: docs/log.md
+    format: yaml-frontmatter
+    operations: { delete: false }
+    fields:
+      - name: title
+        label: Page title
+        type: string
+        required: true
+        default: Log
+        description: Keep this filled in. If it's empty, Pages CMS can't reopen the page.
+      - name: body
+        label: Page
+        type: rich-text
+        options: { format: markdown, media: images, switcher: true }
+
+  - name: design
+    label: Design
+    type: file
+    path: docs/design.md
+    format: yaml-frontmatter
+    operations: { delete: false }
+    fields:
+      - name: title
+        label: Page title
+        type: string
+        required: true
+        default: Design
+        description: Keep this filled in. If it's empty, Pages CMS can't reopen the page.
+      - name: body
+        label: Page
+        type: rich-text
+        options: { format: markdown, media: images, switcher: true }
+
+  - name: parts
+    label: Parts list
+    type: file
+    path: parts.csv
+    format: datagrid
+    operations: { delete: false }
+
+  - name: build_it
+    label: Build it
+    type: file
+    path: docs/build-it.md
+    format: yaml-frontmatter
+    operations: { delete: false }
+    fields:
+      - name: title
+        label: Page title
+        type: string
+        required: true
+        default: Build it
+        description: Keep this filled in. If it's empty, Pages CMS can't reopen the page.
+      - name: body
+        label: Page
+        type: rich-text
+        options: { format: markdown, media: images, switcher: true }
+
+  - name: advanced
+    label: Setup
+    type: group
+    items:
+      - name: readme
+        label: Repo front page (README)
+        type: file
+        path: README.md
+        format: code
+        operations: { delete: false }
+      - name: site_config
+        label: Site settings (mkdocs.yml)
+        type: file
+        path: mkdocs.yml
+        format: code
+        operations: { delete: false }
+
+settings:
+  commit:
+    identity: user
+    templates:
+      create: "Add {path} (via Pages CMS)"
+      update: "Update {path} (via Pages CMS)"
+      delete: "Delete {path} (via Pages CMS)"
+      rename: "Rename {oldPath} to {newPath} (via Pages CMS)"

@@ -1,0 +1,40 @@
+# Generated website and PDF
+site/
+build/
+
+# CAD backups and temp files
+*.FCBak
+*.FCStd1
+*.bak
+*.tmp
+*.0001.rvt
+*.000?.rvt
+*.skb
+*.dwl
+*.dwl2
+~$*
+*.autosave
+*-backups/
+
+# Video: host on YouTube/Vimeo and link it
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Raw camera files: archive elsewhere
+*.CR2
+*.CR3
+*.NEF
+*.ARW
+*.DNG
+*.RAF
+*.HEIC
+
+# Clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+__pycache__/

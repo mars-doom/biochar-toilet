@@ -1,0 +1,57 @@
+# ---- Your project (fill these in once) ----
+site_name: PROJECT NAME
+site_description: One sentence about the project.
+site_author: YOUR NAME
+site_url: https://ORG-NAME.github.io/REPO-NAME/
+repo_url: https://github.com/ORG-NAME/REPO-NAME
+edit_uri: edit/main/docs/
+copyright: >
+  Made at the Mars College Dept of Makers ·
+  Hardware CERN-OHL-W-2.0 · Docs CC BY-SA 4.0
+
+# Pages, in menu order.
+nav:
+  - Summary: index.md
+  - Log: log.md
+  - Design: design.md
+  - Build it: build-it.md
+
+# ---- Shared Dept of Makers setup. No need to edit below here. ----
+hooks:
+  - tools/makers.py          # builds the parts and files lists
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Dark mode
+    - scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Light mode
+  features:
+    - navigation.footer
+    - navigation.top
+    - search.highlight
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.magiclink       # bare links like https://... become clickable
+  - pymdownx.superfences:    # lets ```mermaid blocks draw diagrams
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
