@@ -37,7 +37,7 @@ An old grill grate that sits at the top of the cone holds the heaters.
 
     ![Two bungs sitting in the spread bars](images/grate-bungs-placed.jpg)
 
-3. Weld them in. I used ordinary MIG wire. That isn't best practice on stainless, but this weld isn't critical.
+3. Weld them in. I used ordinary (mild steel) MIG wire because it's what I had. If you can, use stainless wire on stainless parts (see the note in step 3).
 
     ![Bungs welded into the grate](images/grate-bungs-welded.jpg)
 
@@ -64,6 +64,9 @@ An old grill grate that sits at the top of the cone holds the heaters.
 5. Seal over the weld with high-heat silicone so it's airtight. A sloppy weld is fine once it's sealed.
 
     ![The finished (ugly but sound) weld](images/side-drain-bung-welded.jpg)
+
+!!! warning "Use stainless filler on stainless"
+    I welded all the stainless bungs with ordinary mild-steel MIG wire. That was a shortcut, and a sloppy one. It holds, but mild-steel filler on stainless rusts at the weld and makes a weaker, more brittle joint. If you can, use stainless wire (308L or 309L), ideally with the right shielding gas, or TIG weld.
 
 ## 4. Replace the lid's bubbler with a bung
 

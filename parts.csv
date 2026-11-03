@@ -1,16 +1,17 @@
 section,item,qty,details,source,cost_each,notes
-Vessel,VEVOR 8 gal stainless conical fermenter,1,,,140.90,16 gal version is about $40 more
-Vessel,"1/2in NPT weld-on female bung, 304 stainless (4-pack)",1,,[Amazon](https://www.amazon.com/dp/B0H97NP1FJ),19.99,"2 in grate, cone side, lid center"
-Vessel,"1/2in NPT male hex countersunk plug, stainless (2-pack)",1,,,7.99,Seal unused bungs
-Vessel,Wood stove gasket rope + cement kit (3/8in x 84in),1,,,17.95,Builder used a thin hardware-store ribbon gasket in two layers
+Vessel,VEVOR 8 gal stainless conical fermenter,1,,[Amazon list](https://www.amazon.com/hz/wishlist/ls/2KGYJ41JTS4PL),140.90,16 gal version is about $40 more
+Vessel,"1/2in NPT weld-on female bung, 304 stainless (4-pack)",1,,[Amazon list](https://www.amazon.com/hz/wishlist/ls/2KGYJ41JTS4PL),19.99,"2 in grate, cone side, lid center"
+Vessel,"1/2in NPT male hex countersunk plug, stainless (2-pack)",1,,[Amazon list](https://www.amazon.com/hz/wishlist/ls/2KGYJ41JTS4PL),7.99,Seal unused bungs
+Vessel,Wood stove gasket rope + cement kit (3/8in x 84in),1,,[Amazon list](https://www.amazon.com/hz/wishlist/ls/2KGYJ41JTS4PL),17.95,Builder used a thin hardware-store ribbon gasket in two layers
 Vessel,High-temperature silicone (red),1,,,,TODO: product and cost
 Vessel,Grill grate (fits top of cone),1,,Salvage,salvaged,
-Heat,DERNORD cartridge heater 120V 750W 1/2in thread,2,,[Amazon](https://www.amazon.com/dp/B0788LBYSK),30.99,
-Heat,Aluminum-faced ceramic fiber blanket 1in x 24in x 6.2ft,1,,,69.99,
-Electrical,12 AWG mica high-temperature wire (16.4 ft),1,,,16.99,Rated -76 to 932F
-Electrical,TTFLEX 36in 3/4in ID gas flex line kit (1in OD),1,,[Amazon](https://www.amazon.com/dp/B0CJ4VBDPN),28.99,Conduit for heater wiring and outlet for steam/gas
+Vessel,Small piece of sheet metal (drip hood),1,,Salvage,salvaged,Optional: hood over the side bung inside the cone
+Heat,DERNORD cartridge heater 120V 750W 1/2in thread,2,,[Amazon list](https://www.amazon.com/hz/wishlist/ls/2KGYJ41JTS4PL),30.99,
+Heat,Aluminum-faced ceramic fiber blanket 1in x 24in x 6.2ft,1,,[Amazon list](https://www.amazon.com/hz/wishlist/ls/2KGYJ41JTS4PL),69.99,
+Electrical,12 AWG mica high-temperature wire (16.4 ft),1,,[Amazon list](https://www.amazon.com/hz/wishlist/ls/2KGYJ41JTS4PL),16.99,Rated -76 to 932F
+Electrical,TTFLEX 36in 3/4in ID gas flex line kit (1in OD),1,,[Amazon list](https://www.amazon.com/hz/wishlist/ls/2KGYJ41JTS4PL),28.99,Conduit for heater wiring and outlet for steam/gas
 Electrical,Heat shrink tubing,1,,,,Rated 125C; splices kept outside the hot zone
 Electrical,120V plug / cord,1,,,,TODO: details
 Electrical,Thermocouple thermometer,1,,,,Ordered; TODO: model and cost
-Air,AmRunJe 120mm 12V IP67 centrifugal blower,1,,,19.99,Dries contents while filling; runs off a small solar panel
+Air,AmRunJe 120mm 12V IP67 centrifugal blower,1,,[Amazon list](https://www.amazon.com/hz/wishlist/ls/2KGYJ41JTS4PL),19.99,Dries contents while filling; runs off a small solar panel
 Air,Small 12V solar panel for blower,1,,,,TODO: model and cost

@@ -34,7 +34,7 @@ Cooking the waste solves several of these at once:
 
 ## Why torrefaction, not full pyrolysis
 
-Torrefaction is a gentler step than full pyrolysis. The material dries, sterilizes and starts to carbonize, but keeps most of its volatile gases. For kiln fuel that's a plus: torrefied material burns longer and with more energy than plain dried biomass. Leaving the volatiles in may also affect the ceramics in interesting ways.
+Torrefaction is a gentler step than full pyrolysis. The material dries, sterilizes and starts to carbonize, but keeps most of its volatile gases. For kiln fuel that's a plus: torrefied material burns longer and with more energy than plain dried biomass. Leaving the volatiles in may also affect the ceramics' surface and glaze in interesting ways.
 
 The lower temperature also makes the machine much simpler. Oven-range heat lets you use ordinary cartridge heaters, thin stainless, stove gaskets and standard 120 V wiring. → [How it works](design.md)
 

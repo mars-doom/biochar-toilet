@@ -47,9 +47,9 @@ The target here, **about 570 °F (300 °C)**, sits at the top of the torrefactio
 - The 12 V blower is on its own small solar panel, separate from the heater circuit.
 
 !!! warning "Continuous load"
-    Two 750 W heaters draw about 12.5 A. Electrical code treats anything running 3 hours or more as a *continuous* load and limits it to 80% of the breaker rating, which is 12 A on a 15 A circuit. A long firing on a 15 A outlet is just over that limit. Options:
+    These numbers are for a standard **120 V** outlet. Two 750 W heaters draw about **12.5 A at 120 V**. Electrical code treats anything running **3 hours or more** as a *continuous* load and limits it to 80% of the breaker rating, which is **12 A on a 15 A, 120 V circuit**. A firing longer than 3 hours on a 15 A outlet is just over that limit. Options:
 
-    - Run it on a **20 A circuit** (16 A continuous), with a 12 AWG cord.
+    - Run it on a **20 A, 120 V circuit** (16 A continuous), with a 12 AWG cord.
     - **Lower the wattage**, for example two 600 W heaters (10 A).
     - Use a heavy cord either way. Thin 16 AWG extension cords are rated about 13 A and will run hot.
 
@@ -60,7 +60,7 @@ The target here, **about 570 °F (300 °C)**, sits at the top of the torrefactio
 
 ## Parts
 
-The parts I bought cost about $385. The grill grate was salvaged.
+The parts I bought cost about $385. The grill grate and the scrap for the drip hood were salvaged. All the purchased parts are on one [Amazon list](https://www.amazon.com/hz/wishlist/ls/2KGYJ41JTS4PL), which I keep up to date as the build grows.
 
 {{ parts_list }}
 
